@@ -1,0 +1,5 @@
+numpy
+paho-mqtt
+sounddevice
+scipy
+tensorflow

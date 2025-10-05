@@ -1,0 +1,9 @@
+{
+    "model_path": "tflite-model/tflite_learn_785526_3.tflite",
+    "labels_path": "labels.json",
+    "broker": "192.168.1.57",
+    "broker_port": 1883,
+    "topic": "edgeimpulse/detections",
+    "client_id": "ei-pc-01",
+    "threshold": 0.5
+}
