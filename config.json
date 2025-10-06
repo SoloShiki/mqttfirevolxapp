@@ -1,9 +1,10 @@
 {
-    "model_path": "tflite-model/tflite_learn_785526_3.tflite",
-    "labels_path": "labels.json",
-    "broker": "192.168.1.57",
-    "broker_port": 1883,
-    "topic": "edgeimpulse/detections",
-    "client_id": "ei-pc-01",
-    "threshold": 0.5
+  "model": "tflite-model/tflite_learn_785526_3.tflite",
+  "labels": "labels.json",
+  "mqtt_host": "192.168.1.57",
+  "mqtt_port": 1883,
+  "mqtt_topic": "cigar/detect",
+  "target_label": "cigar",
+  "threshold": 0.5
 }
+
