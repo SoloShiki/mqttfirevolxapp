@@ -14,7 +14,7 @@ class MqttPublisher:
         self,
         broker: str = "localhost",
         port: int = 1883,
-        topic: str = "edgeimpulse/detections",
+        topic: str = "cigar/detect",
         client_id: Optional[str] = None,
         username: Optional[str] = None,
         password: Optional[str] = None,

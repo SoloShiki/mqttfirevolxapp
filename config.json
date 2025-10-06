@@ -5,6 +5,6 @@
   "mqtt_port": 1883,
   "mqtt_topic": "cigar/detect",
   "target_label": "cigar",
-  "threshold": 0.5
+  "threshold": 0.79
 }
 
